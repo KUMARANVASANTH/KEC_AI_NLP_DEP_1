@@ -1,1 +1,1 @@
-command: python3 $/AML.py $input $output $shared
+command: python3 AML.py $input $output $shared
