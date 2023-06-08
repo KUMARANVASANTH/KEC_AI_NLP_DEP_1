@@ -1,1 +1,23 @@
-command: python3 AML.ipynb $input $output $shared
+{
+  "name": "Output Predictions for KEC_AI_NLP_DEP",
+  "description": "Output predictions for the test dataset",
+  "author": "Vasanthara",
+  "affiliation": "KEC",
+  "task": "Classification predictions for the Detecting Signs of Depression from Social Media Text - LT-EDI@RANLP 2023",
+  "tags": [
+    "KEC_AI_NLP_DEP_english1",
+    "predictions",
+    "classification"
+  ],
+  "dependencies": [],
+  "entry_point": "None",
+  "resources": [
+    {
+      "name": "KEC_AI_NLP_DEP_english1.tsv",
+      "description": "Output predictions in the specified format",
+      "url": "./KEC_AI_NLP_DEP_english1.tsv"
+    }
+  ],
+  "submission_date": "2023-06-08",
+  "other_information": "Any additional information or notes about the predictions"
+}
